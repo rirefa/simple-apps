@@ -7,6 +7,6 @@ services:
     env_file: ./apps/.env
     volumes:
       - myapp:/app
-volumes:
-  myapp:
-    external: true
+#volumes:
+#  myapp:
+#    external: true
